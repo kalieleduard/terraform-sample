@@ -21,3 +21,15 @@ This project includes the whole basic configuration for AWS services:
 
 - #### Must have a RSA key configured at path: /.ssh
 
+To initialize the infrastructure run:
+
+```
+terraform plan
+terraform apply
+```
+
+To remove all infrastructure run:
+
+```
+terraform destroy
+```
